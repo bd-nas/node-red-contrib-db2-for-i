@@ -86,7 +86,7 @@ module.exports = function (RED) {
         });
     }
 
-    RED.nodes.registerType("DB2 for i Config", ibmdb2foriNode, {
+    RED.nodes.registerType("DB2 for i Config by belldata", ibmdb2foriNode, {
         credentials: {
             user: { type: "text" },
             password: { type: "password" }
@@ -256,5 +256,5 @@ module.exports = function (RED) {
 
         });
     }
-    RED.nodes.registerType("DB2 for i", ibmdb2foriNodeIn);
+    RED.nodes.registerType("DB2 for i by belldata", ibmdb2foriNodeIn);
 }
